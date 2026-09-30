@@ -1,3 +1,7 @@
+## APP URL
+'''
+https://fake-news-detectiongit-txpsfgd2spv5khzsswxwke.streamlit.app/
+'''
 # 📰 Fake News Detection
 
 A Streamlit web app that classifies a news headline as **REAL** or **FAKE** using a
@@ -27,16 +31,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Retrain (optional)
-
-```bash
-python train.py
-```
-
-Retrain whenever you change the `scikit-learn` version, since pickled models are version-specific.
-
 ## Deploy
 
 **Streamlit Community Cloud:** push to GitHub, create a new app, set main file to `app.py`.
-
 
